@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="container">
+        <header>
+
+            <section class="line-container">
+                <div class="line"></div>
+                <div class="text">YAY! It's BOGO</div>
+                <div class="line"></div>
+            </section>
+        </header>
+
+        <form>
+            <!-- Option 1 -->
+            <section class="option" id="option1" data-price="10">
+                <input type="radio" id="radio" name="bundle" />
+                <div class="details">
+                    <div id="one">1 Unit</div>
+                    <div id="offer">10% Off</div>
+                    <div>$10.00 USD</div>
+                </div>
+                <div class="details">
+                    <div>Standard Price</div>
+                    <div class="strike"><strike>$24.00 USD</strike></div>
+                </div>
+                <section class="sizes">
+                    <legend>Size and Color</legend>
+                    #1
+                    <label>
+                        <select name="size1" id="size1">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                        </select>
+                    </label>
+                    <label>
+                        <select name="color1" id="color1">
+                            <option value="color">Color</option>
+                            <option value="red">Red</option>
+                            <option value="blue">Blue</option>
+                            <option value="green">Green</option>
+                        </select>
+                    </label>
+                </section>
+                <section class="sizes">
+                    #2
+                    <label>
+                        <select name="size2b" id="size2b">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                        </select>
+                    </label>
+                    <label>
+                        <select name="color1b" id="color1b">
+                            <option value="color">Color</option>
+                            <option value="red">Red</option>
+                            <option value="blue">Blue</option>
+                            <option value="green">Green</option>
+                        </select>
+                    </label>
+                </section>
+            </section>
+
+            <!-- Option 2 -->
+            <section class="option" id="radio" id="option2" data-price="18">
+                <input type="radio" name="bundle" />
+                <div class="details">
+                    <div>2 Unit</div>
+                    <div id="offer">20% Off</div>
+                    <div>$18.00 USD</div>
+                    <div class="most-popular">Most Popular</div>
+                </div>
+                <div class="strike"><strike>$24.00 USD</strike></div>
+                <section class="sizes">
+                    <legend>Size and Color</legend>
+                    #1
+                    <label>
+                        <select name="size2a" id="size2a">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                        </select>
+                    </label>
+                    <label>
+                        <select name="color2a" id="color2a">
+                            <option value="color">Color</option>
+                            <option value="red">Red</option>
+                            <option value="blue">Blue</option>
+                            <option value="green">Green</option>
+                        </select>
+                    </label>
+                </section>
+                <section class="sizes">
+                    #2
+                    <label>
+                        <select name="size2b" id="size2b">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                        </select>
+                    </label>
+                    <label>
+                        <select name="color2b" id="color2b">
+                            <option value="color">Color</option>
+                            <option value="red">Red</option>
+                            <option value="blue">Blue</option>
+                            <option value="green">Green</option>
+                        </select>
+                    </label>
+                </section>
+            </section>
+
+            <!-- Option 3 -->
+            <section class="option" id="radio" id="option3" data-price="24">
+                <input type="radio" name="bundle" id="radio3" />
+                <div class="details">
+                    <div>3 Unit</div>
+                    <div id="offer-third">30% Off</div>
+                    <div>$24.00 USD</div>
+                </div>
+                <div class="strike"><strike>$24.00 USD</strike></div>
+                <section class="sizes">
+                    <legend>Size and Color</legend>
+                    #1
+                    <label>
+                        <select name="size3a" id="size3a">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                        </select>
+                    </label>
+                    <label>
+                        <select name="color3a" id="color3a">
+                            <option value="color">Color</option>
+                            <option value="red">Red</option>
+                            <option value="blue">Blue</option>
+                            <option value="green">Green</option>
+                        </select>
+                    </label>
+                </section>
+                <section class="sizes">
+                    #2
+                    <label>
+                        <select name="size3b" id="size3b">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                        </select>
+                    </label>
+                    <label>
+                        <select name="color3b" id="color3b">
+                            <option value="color">Color</option>
+                            <option value="red">Red</option>
+                            <option value="blue">Blue</option>
+                            <option value="green">Green</option>
+                        </select>
+                    </label>
+                </section>
+            </section>
+        </form>
+
+        <footer class="free-shipping">
+            <span id="free-shipping">Free 2 Day Shipping</span>
+            <span><span class="total">Total:</span> $<span id="total">0</span>.00 USD</span>
+        </footer>
+
+        <button class="add-to-cart">+ Add to Cart</button>
+        <div class="proprietor"><i>© Powered by Pumper</i></div>
+    </main>
+
+    <script src="demo.js"></script>
+</body>
+
+</html>
