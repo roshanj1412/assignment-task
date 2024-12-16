@@ -22,12 +22,12 @@
     font-size: 40px;
     margin: top 10px;
     margin-bottom: 20px;
-    width: 95%;
+    width: 100%;
 }
 
 .line {
     margin: top 50px;
-
+    margin-left: 10px;
     flex-grow: 1;
     height: 1px;
     background-color: #ccc;
@@ -45,7 +45,7 @@
 }
 
 .option {
-    border: 2px solid #FF6B82;
+    border: 2px solid #ccc;
 
     padding: 15px;
     margin-bottom: 15px;
@@ -70,31 +70,13 @@
 }
 
 .option input[type="radio"] {
-    display: block;
+    display: flex;
     position: absolute;
     top: 20px;
     left: 25px;
-    border: 1px solid #FF6B82;
-    border-radius: 5p;
     margin: 10px 70px 0 0;
     background-color: #FF6B82;
     accent-color: #FF6B82;
-}
-
-#radio {
-    width: 1.25em;
-    height: 1.25em;
-    border: 2px solid #FF6B82;
-    border-radius: 50%;
-    box-sizing: border-box;
-    padding: 2px;
-}
-
-#radio::after {
-    content: "";
-    display: block;
-    background-color: #FF6B82;
-    border-radius: 50%;
 }
 
 #radio3 {
